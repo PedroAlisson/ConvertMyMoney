@@ -3,6 +3,7 @@ const app = express()
 const path = require('path')
 const convert = require('./lib/convert')
 const apiBCD = require('./lib/api.bcd')
+var moment = require('moment')
 
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
