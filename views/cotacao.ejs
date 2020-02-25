@@ -1,0 +1,23 @@
+<%- include('header') %>
+
+<div class="result">
+   
+</div>
+
+<div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Sua cotação!</h4>
+    <p> <% if(error){ %>
+            <%= error %>
+    <% }else{ %> 
+
+<%= quantidade %> 
+dolares na cotação: 
+<%= cotacao %> é igual a: 
+<%= conversao %> reais
+<% } %>
+    </p>
+    <hr>
+  </div>
+
+
+<%- include('footer') %>

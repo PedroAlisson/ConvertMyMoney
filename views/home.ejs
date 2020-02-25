@@ -1,0 +1,15 @@
+<%- include('header') %>
+<div class="container">
+    <form method="GET" action="/cotacao">
+        <div class="form-group">
+          <label for="Dolar">Cotação do Dolar</label>
+          <input type="text" class="form-control" id="Dolar" placeholder="Cotação do Dolar" name="cotacao" value="<%= cotacao %>">
+        </div>
+        <div class="form-group">
+          <label for="QtdeDolar">Quantidade</label>
+          <input type="text" class="form-control" id="QtdeDolar" placeholder="Quantidade Dolares" name="quantidade" >
+        </div>
+        <button class="btn btn-primary" id="enviar">Converter</button>
+      </form>
+</div>
+<%- include('footer') %>
