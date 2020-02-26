@@ -1,21 +1,23 @@
 {
-  "name": "convertmymoney",
+  "name": "convert",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "test": "ejs"
   },
-  "engines": {
-    "node": "8.10.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroAlisson/ConvertMyMoney.git"
   },
   "author": "PedroAlisson",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroAlisson/ConvertMyMoney/issues"
+  },
+  "homepage": "https://github.com/PedroAlisson/ConvertMyMoney#readme",
   "devDependencies": {
     "jest": "^25.1.0"
-  },
-  "jest":{
-    "collectCoverage": true
   }
 }
