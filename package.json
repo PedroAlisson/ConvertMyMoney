@@ -1,11 +1,14 @@
 {
   "name": "convert",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert My Money",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "ejs"
+  },
+  "engines": {
+    "node": "8.10.0"
   },
   "repository": {
     "type": "git",
