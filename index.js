@@ -35,7 +35,6 @@ app.get('/cotacao', (req,res) =>{
 
 
 app.listen(process.env.PORT || 3000, err =>{
-
     if(err){
         console.log('Err')
     }else
