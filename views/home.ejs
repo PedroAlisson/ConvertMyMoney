@@ -1,6 +1,6 @@
 <%- include('header') %>
 <div class="container">
-    <form method="GET" action="/cotacao">
+    <form method="POST" action="/cotacao">
         <div class="form-group">
           <label for="Dolar">Cotação do Dolar</label>
           <input type="text" class="form-control" id="Dolar" placeholder="Cotação do Dolar" name="cotacao" value="<%= cotacao %>">
